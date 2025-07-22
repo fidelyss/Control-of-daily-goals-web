@@ -18,6 +18,7 @@ const button = tv({
         variant: 'primary',
         size: 'default',
     },
+    
 })
 
 type ButtonProps = ComponentProps<'button'> & VariantProps<typeof button>
